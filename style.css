@@ -1,0 +1,177 @@
+.custom-carousel-div {
+  height: 600px;
+  margin-top: 60px;
+  width: 100%;
+  background-color: rgb(35, 67, 126);
+}
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+}
+
+/* .card-main-div {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+}
+.card {
+  width: 350px;
+  height: 400px !important;
+  background-color: cadetblue !important;
+  text-align: center;
+  display: flex !important;
+  justify-content: space-around !important;
+} */
+
+.navbar-brand-img {
+  height: 2rem;
+}
+.navbar {
+  background-color: rgb(35, 67, 126);
+}
+@media screen and (max-width: 1024px) {
+  .navbar-brand-img {
+    height: 1.8rem;
+    width: 9rem;
+  }
+}
+
+.navbar .nav-link {
+  color: rgb(0, 0, 0);
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.fs-5 {
+  font-size: 18px !important;
+}
+
+@media (max-width: 700px) {
+  .mb-navbar img {
+    width: 2rem;
+  }
+
+  .mb-navbar a {
+    line-height: 2rem;
+  }
+}
+
+.navbar .active {
+  font-weight: 700;
+  border-bottom: 5px solid rgb(243, 241, 224);
+  display: inline-block;
+  padding-bottom: 0px;
+  border-radius: 3px;
+}
+.nav-hover {
+  font-size: 18px;
+  transition: all 0.4s;
+}
+.nav-hover:hover {
+  font-size: 20px;
+  font-weight: 600;
+}
+.navbar {
+  height: 60px;
+}
+
+.custom-btn-hight {
+  height: 30px !important;
+}
+.card-div {
+  margin-top: 100px;
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  flex-flow: column;
+  align-items: center;
+  background-color: rgb(35, 67, 126);
+}
+.form-div {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.form-div input {
+  border: none;
+  padding: 10px;
+  outline: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 250px;
+  background-color: rgb(253, 246, 227);
+}
+.btn-cus {
+  height: 40px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #fff;
+  background-color: rgb(71, 102, 224);
+}
+.custom-form-div {
+  height: 70%;
+}
+.custom-as {
+  height: 10%;
+}
+.custom-asd {
+  height: 20%;
+}
+
+.custom-img {
+  height: 100%;
+  width: 100%;
+}
+.fs-5 {
+  font-size: 18px !important;
+}
+.section-title {
+  font-family: "Kanit", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+}
+.custom-front-size {
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+}
+.button {
+  height: 40px !important;
+  width: 40px !important;
+  border-radius: 50% !important;
+  border: none !important;
+  background-color: rgb(57, 91, 154) !important;
+  box-shadow: 0 0px 20px 0 rgb(57, 91, 154);
+  transition: all 0.4s;
+}
+
+.button-2 {
+  height: 40px !important;
+  width: 40px !important;
+  border-radius: 50% !important;
+  border: none !important;
+  background-color: rgb(0, 172, 237) !important;
+  box-shadow: 0 0px 20px 0 rgb(0, 172, 237);
+  transition: all 0.4s;
+}
+
+.button:hover {
+  width: 90px !important;
+  border-radius: 50px !important;
+}
+
+.button-2:hover {
+  width: 90px !important;
+  border-radius: 50px !important;
+}
+
+.container-2 {
+  margin-top: 50px;
+}
